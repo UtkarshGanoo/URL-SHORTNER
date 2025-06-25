@@ -1,0 +1,13 @@
+first yo
+npm init 
+npm i nodemon
+npm i express
+npm i mongoose
+npm i shortid
+npm i nanoid
+npm i uuid
+npm i cookie-parser
+npm i jsonwebtoken
+
+npm start
+
