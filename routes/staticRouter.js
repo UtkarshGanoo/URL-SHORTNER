@@ -15,6 +15,8 @@ router.get("/",restrictTo(['NORMAL','ADMIN']),async (req,res)=>{
     const allurls=await URL.find({createdBy:req.user._id});
     return res.render("home",{
         urls:allurls,
+        shortUrl: null,
+        qrImage: null
 });
 });
 

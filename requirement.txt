@@ -8,6 +8,8 @@ npm i nanoid
 npm i uuid
 npm i cookie-parser
 npm i jsonwebtoken
+npm i qrcode 
+npm i bcrypt
 
 npm start
 
